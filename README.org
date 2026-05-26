@@ -1,0 +1,2 @@
+* Dotfiles
+Dotfiles for Macbook (M2 Air), NixOS System (Personal, home system)
