@@ -16,6 +16,7 @@
 			mouse = "a";
 			ignorecase = true;
 			smartcase = true;
+      foldenable = false;
 		};
 	};
 }
