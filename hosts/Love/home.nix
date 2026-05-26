@@ -12,6 +12,6 @@
   imports = [
     inputs.nixvim.homeModules.nixvim
     ../../shared-modules/nixvim
-    ../../shared-modules/ghcli
+    ../../shared-modules/git
   ];
 }
