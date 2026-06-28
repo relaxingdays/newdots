@@ -9,5 +9,6 @@
 	imports = [
 		../../shared-modules/nixvim
 		../../shared-modules/aerospace
+    ../../shared-modules/ghostty
 	];
 }

@@ -31,7 +31,7 @@
     home-manager,
     ...
   }: let
-    username = "cosoda";
+    username = "day";
   in {
     darwinConfigurations = {
       Grace = nix-darwin.lib.darwinSystem {
@@ -39,6 +39,7 @@
           ./hosts/Grace/configuration.nix
           home-manager.darwinModules.home-manager
           {
+	nixpkgs.hostPlatform = "aarch64-darwin";
             home-manager = {
               useGlobalPkgs = true;
               useUserPackages = true;

@@ -1,7 +1,8 @@
-{ ... }:
+{ username, ... }:
 {
 	nix.settings.experimental-features = ["nix-command flakes"];
-	system.stateVersion = "25.11";
-
-
+	system.stateVersion = 5;
+	users.users."${username}" = {
+		home = "/Users/${username}";
+	};
 }

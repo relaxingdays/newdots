@@ -1,7 +1,9 @@
-{ ... }:
+{ inputs, ... }:
 {
+  programs.nixvim.nixpkgs.useGlobalPackages = true;
   programs.nixvim.enable = true;
 	imports = [
+		inputs.nixvim.homeManagerModules.nixvim
 		./modules/keymaps.nix
 		./modules/options.nix
 		./modules/lsp
