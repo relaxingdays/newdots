@@ -1,4 +1,5 @@
 { ... }: 
+{
 	services.aerospace = {
 		enable = true;
 		settings = {
@@ -13,14 +14,18 @@
 			enable-normalization-flatten-containers = false;
 			enable-normalization-opposite-orientation-for-nested-containers = true;
 			accordion-padding = 10;
-			after-startup-command = [
+      /*
+      after-startup-command = [
 			""
 			];
+      */
 			default-root-container-layout = "tiles";
 			default-root-container-orientation = "auto";
+      /*
 			exec-on-workspace-change = [
 
 			];
+      */
 		};
 	};
 }

@@ -8,7 +8,13 @@
 
 	imports = [
 		../../shared-modules/nixvim
-		../../shared-modules/aerospace
     ../../shared-modules/ghostty
+    ../../shared-modules/fish
+    ../../shared-modules/zen
+    ../../shared-modules/nixcord
+    #../../shared-modules/nix-ai
+    #./modules/mullvad.nix
+    ./modules/homepackages.nix
+    ./modules/fastfetch.nix
 	];
 }

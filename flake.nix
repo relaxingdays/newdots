@@ -11,6 +11,20 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    nix-homebrew = {
+      url = "github:zhaofengli/nix-homebrew";
+    };
+
+    homebrew-core = {
+      url = "github:homebrew/homebrew-core";
+      flake = false;
+    };
+
+    homebrew-cask = {
+      url = "github:homebrew/homebrew-cask";
+      flake = false;
+    };
+
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -21,6 +35,24 @@
     nixvim = {
       url = "github:nix-community/nixvim";
     };
+
+    zen-browser = {
+      url = "github:0xc000022070/zen-browser-flake";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        home-manager.follows = "home-manager";
+      };
+    };
+
+    nixcord = {
+      url = "github:FlameFlag/nixcord";
+    };
+
+    nix-ai = {
+      url = "github:dryvist/nix-ai";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.home-manager.follows = "home-manager";
+    };
   };
 
   outputs = inputs @ {
@@ -29,6 +61,9 @@
     nixvim,
     nix-darwin,
     home-manager,
+    nix-homebrew,
+    homebrew-cask,
+    homebrew-core,
     ...
   }: let
     username = "day";
@@ -44,14 +79,16 @@
               useGlobalPkgs = true;
               useUserPackages = true;
               users."${username}" = import ./hosts/Grace/home.nix;
+              backupFileExtension = "backup"; #Since using outOfStoreSymlink
               extraSpecialArgs = {
-                inherit username inputs;
+                inherit self username inputs;
               };
             };
           }
         ];
         specialArgs = {
           username = "${username}";
+          inherit inputs self;
         };
       };
     };

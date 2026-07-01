@@ -1,0 +1,4 @@
+{ ... }:
+{
+  programs.claude.enable = true;
+}

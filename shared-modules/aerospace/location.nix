@@ -1,0 +1,19 @@
+{ ... }:
+{
+  services.aerospace.settings = {
+    on-window-detected = [
+      {
+        "if".app-id = "com.mitchellh.ghostty";
+        run = [ "move-node-to-workspace 1" ];
+      }
+      {
+        "if".app-id = "app.zen-browser.zen";
+        run = [ "move-node-to-workspace 2" ];
+      }
+      {
+        "if".app-id = "dev.vencord.vesktop";
+        run = [ "move-node-to-workspace 6" ];
+      }
+    ];
+  };
+}

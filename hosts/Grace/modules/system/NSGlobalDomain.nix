@@ -18,7 +18,7 @@
 		AppleShowScrollBars = "WhenScrolling";
 
 		AppleSpacesSwitchOnActivate = false; #Change to true for normal experience
-		AppleTemperatureUnit = "Celcius";
+		AppleTemperatureUnit = "Celsius";
 		AppleWindowTabbingMode = "manual";
 		InitialKeyRepeat = 15;
 		KeyRepeat = 3;
@@ -48,13 +48,13 @@
 		_HIHideMenuBar = true;
 		"com.apple.keyboard.fnState" = false;
 		"com.apple.sound.beep.feedback" = 0;
-		"com.apple.sound.beep.volume" = 0;
+		"com.apple.sound.beep.volume" = 0.0;
 		"com.apple.springing.delay" = 0.1;
 		"com.apple.springing.enabled" = true;
 		"com.apple.swipescrolldirection" = false;
 		"com.apple.trackpad.enableSecondaryClick" = true;
 		"com.apple.trackpad.forceClick" = true;
-		"com.apple.trackpad.scaling" = 1;
+		"com.apple.trackpad.scaling" = 1.0;
 
 	};
 }

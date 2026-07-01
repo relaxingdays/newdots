@@ -66,6 +66,12 @@
         action = ":TypstPreviewToggle<CR>";
         options.desc = "Toggle typst preview";
       }
+			{
+				mode = [ "n" "v"];
+				key = "<leader>d";
+				action = ":Oil <CR>";
+				options.desc = "Open oil on current directory";
+			}
 		];
 		plugins.telescope.keymaps = {
 			"<leader>ff" = {

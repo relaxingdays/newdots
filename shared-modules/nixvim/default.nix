@@ -5,10 +5,14 @@
 	imports = [
 		inputs.nixvim.homeManagerModules.nixvim
 		./modules/keymaps.nix
+    ./modules/colorscheme.nix
 		./modules/options.nix
 		./modules/lsp
 		./modules/plugins/lualine.nix
 		./modules/plugins/oil.nix
 		./modules/plugins/treesitter.nix
+    ./modules/plugins/telescope.nix
+    ./modules/plugins/fugitive.nix
+    ./modules/plugins/typst-preview.nix
 	];
 }
