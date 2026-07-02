@@ -8,6 +8,7 @@
 	};
   imports = [
     ./modules/system
+    ./modules/security.nix
     ./modules/packages.nix
     ./modules/fish.nix
     ../../shared-modules/aerospace

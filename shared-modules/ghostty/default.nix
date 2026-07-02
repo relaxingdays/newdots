@@ -8,8 +8,8 @@
 
     settings = {
       theme = "Vague";
-
       macos-titlebar-style = "hidden";
+      font-family = "JetBrainsMono Nerd Font Mono";
       font-size = 18;
       window-padding-x = 8;
       window-padding-y = 8;

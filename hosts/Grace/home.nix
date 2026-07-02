@@ -12,6 +12,10 @@
     ../../shared-modules/fish
     ../../shared-modules/zen
     ../../shared-modules/nixcord
+    ../../shared-modules/git
+    ../../shared-modules/tmux
+
+    ../../shared-modules/games/prismlauncher
     #../../shared-modules/nix-ai
     #./modules/mullvad.nix
     ./modules/homepackages.nix

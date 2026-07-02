@@ -4,5 +4,6 @@
     ripgrep
     fd
     t3code
+    (nerd-fonts.jetbrains-mono)
   ];
 }

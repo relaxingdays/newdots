@@ -2,9 +2,7 @@
 { ... }:
 {
   homebrew = {
-    formulae = [
-      "claude-code"
-      "codex"
+    brews = [
     ];
   };
 }

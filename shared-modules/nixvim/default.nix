@@ -14,5 +14,6 @@
     ./modules/plugins/telescope.nix
     ./modules/plugins/fugitive.nix
     ./modules/plugins/typst-preview.nix
+    ./modules/plugins/extra-plugins.nix
 	];
 }

@@ -6,6 +6,5 @@
     mouseDriverCursorSize = 2.0;
     reduceMotion = true;
     reduceTransparency = true;
-
   };
 }
