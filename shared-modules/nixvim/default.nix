@@ -15,5 +15,6 @@
     ./modules/plugins/fugitive.nix
     ./modules/plugins/typst-preview.nix
     ./modules/plugins/extra-plugins.nix
+    ./modules/plugins/mini-pairs.nix
 	];
 }

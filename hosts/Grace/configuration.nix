@@ -11,6 +11,7 @@
     ./modules/security.nix
     ./modules/packages.nix
     ./modules/fish.nix
+    ./modules/karabiner
     ../../shared-modules/aerospace
     ./modules/homebrew
   ];
