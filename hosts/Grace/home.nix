@@ -20,5 +20,6 @@
     #./modules/mullvad.nix
     ./modules/homepackages.nix
     ./modules/fastfetch.nix
+    ./modules/sketchybar
 	];
 }

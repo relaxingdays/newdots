@@ -1,0 +1,6 @@
+{ ... }:
+{
+  programs.sketchybar = {
+    enable = true;
+  };
+}

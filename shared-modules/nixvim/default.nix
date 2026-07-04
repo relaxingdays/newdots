@@ -3,7 +3,7 @@
   programs.nixvim.nixpkgs.useGlobalPackages = true;
   programs.nixvim.enable = true;
 	imports = [
-		inputs.nixvim.homeManagerModules.nixvim
+		inputs.nixvim.homeModules.nixvim
 		./modules/keymaps.nix
     ./modules/colorscheme.nix
 		./modules/options.nix
