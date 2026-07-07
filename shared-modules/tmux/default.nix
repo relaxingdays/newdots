@@ -51,7 +51,6 @@
       set -g window-status-format "[#I] #W "
       set -g window-status-current-format "#[fg=#d8647e bold][#I] #W "
 
-      set -g default-command "''${SHELL}"
       set -g set-clipboard on
     '';
   };
