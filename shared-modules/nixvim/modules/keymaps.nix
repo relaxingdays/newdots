@@ -27,37 +27,67 @@
       {
         mode = "n";
         key = "<leader>a";
-        action = "function() harpoon:list():add end";
+        action.__raw = ''
+          function()
+            local list = harpoon:list()
+            list:add()
+          end
+        '';
         options.desc = "Add file to harpoon";
       }
       {
         mode = "n";
         key = "<leader>h";
-        action = "function() harpoon:list():toggle_quick_menu(harpoon:list()) end";
+        action.__raw = ''
+          function()
+            local list = harpoon:list()
+            harpoon.ui:toggle_quick_menu(list)
+          end
+        '';
         options.desc = "Toggle harpoon menu";
       }
       {
         mode = "n";
         key = "<leader>1";
-        action = "function() harpoon:list():select(1) end";
+        action.__raw = ''
+          function()
+            local list = harpoon:list()
+            list:select(1)
+          end
+        '';
         options.desc = "Go to harpoon file 1";
       }
       {
         mode = "n";
         key = "<leader>2";
-        action = "function() harpoon:list():select(2) end";
+        action.__raw = ''
+          function()
+            local list = harpoon:list()
+            list:select(2)
+          end
+        '';
         options.desc = "Go to harpoon file 2";
       }
       {
         mode = "n";
         key = "<leader>3";
-        action = "function() harpoon:list():select(3) end";
+        action.__raw = ''
+          function()
+            local list = harpoon:list()
+            list:select(3)
+          end
+        '';
         options.desc = "Go to harpoon file 3";
       }
       {
         mode = "n";
         key = "<leader>4";
-        action = "function() harpoon:list():select(4) end";
+        action.__raw = ''
+          function()
+            local list = harpoon:list()
+            list:select(4)
+          end
+        '';
         options.desc = "Go to harpoon file 4";
       }
       {

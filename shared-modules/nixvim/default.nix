@@ -9,6 +9,7 @@
 		./modules/options.nix
 		./modules/lsp
 		./modules/plugins/lualine.nix
+    ./modules/plugins/harpoon.nix
 		./modules/plugins/oil.nix
 		./modules/plugins/treesitter.nix
     ./modules/plugins/telescope.nix

@@ -7,7 +7,7 @@
     enableFishIntegration = true;
 
     settings = {
-      theme = "Vague";
+      theme = "Gruvbox dark";
       macos-titlebar-style = "hidden";
       font-family = "JetBrainsMono NFM Regular";
       font-size = 18;
@@ -16,5 +16,10 @@
       command = "${pkgs.fish}/bin/fish --login --interactive";
       scrollbar = "never";
     };
+  };
+
+  home.file."~/.config/ghostty/themes" = {
+    source = ./themes;
+    recursive = true;
   };
 }

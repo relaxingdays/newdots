@@ -2,13 +2,37 @@
 {
   homebrew = {
     casks = [
-      "mullvad-vpn"
+
+
+
+      #System
+      "shottr"
+      "ubersicht"
+      "raycast"
+
+      #Development
+      "intellij-idea"
       "claude-code"
       "codex"
-      "raycast"
-      "spotify"
-      "ableton-live-standard"
+
+      #Productivity
+      "zoom"
+
+      #Utility
       "balenaetcher"
+
+      #Multimedia
+      "spotify"
+      "calibre"
+      "gimp"
+
+      #Privacy
+      "mullvad-vpn"
+
+      #Music prod
+      "ableton-live-standard"
+      "spitfire-audio"
+      "splice"
     ];
   };
 }

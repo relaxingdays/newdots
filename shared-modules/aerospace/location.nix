@@ -19,10 +19,26 @@
         run = [ "move-node-to-workspace 4" ];
       }
       {
+        "if".app-id = "org.gnu.Emacs";
+        run = [ "move-node-to-workspace 5" ];
+      }
+      {
         "if".app-id = "dev.vencord.vesktop";
         run = [ "move-node-to-workspace 6" ];
       }
+      {
+        "if".app-id = "net.kovidgoyal.calibre";
+        run = [ "move-node-to-workspace 8" ];
+      }
 
+      {
+        "if".app-id = "ch.protonmail.desktop";
+        run = [ "move-node-to-workspace m" ];
+      }
+      {
+        "if".app-id = "com.ableton.live";
+        run = [ "move-node-to-workspace d" ];
+      }
     ];
   };
 }

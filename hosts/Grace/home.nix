@@ -4,6 +4,9 @@
 		username = "${username}";
 		homeDirectory = "/Users/${username}";
 		stateVersion = "25.11";
+    sessionVariables = {
+      EDITOR = "nvim";
+    };
 	};
 
 	imports = [
@@ -11,15 +14,13 @@
     ../../shared-modules/ghostty
     ../../shared-modules/fish
     ../../shared-modules/zen
-    ../../shared-modules/nixcord
     ../../shared-modules/git
     ../../shared-modules/tmux
-
-    ../../shared-modules/games/prismlauncher
+    ../../shared-modules/emacs
     #../../shared-modules/nix-ai
     #./modules/mullvad.nix
     ./modules/homepackages.nix
     ./modules/fastfetch.nix
-    ./modules/sketchybar
+    ../../shared-modules/nixcord
 	];
 }

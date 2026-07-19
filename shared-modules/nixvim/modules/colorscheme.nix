@@ -1,6 +1,6 @@
 { ... }:
 {
-	programs.nixvim.colorschemes.vague = {
+	programs.nixvim.colorschemes.gruvbox = {
 		enable = true;
     autoLoad = true;
 	};
