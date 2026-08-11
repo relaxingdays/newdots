@@ -1,10 +1,14 @@
 { ... }:
 {
-  programs.nixcord.config = {
-    useQuickCss = false;
-    themeLinks = [
-      "https://raw.githubusercontent.com/refact0r/system24/refs/heads/main/theme/flavors/system24-tokyo-night.theme.css"
-    ];
-    frameless = true;
+  programs.nixcord = {
+    # Load the local Compline theme (recolored system24) via QuickCSS, since
+    # nixcord only supports remote URLs through themeLinks. The file lives in
+    # this module's assets/ directory.
+    quickCss = builtins.readFile ../../assets/compline.theme.css;
+    config = {
+      useQuickCss = true;
+      themeLinks = [ ];
+      frameless = true;
+    };
   };
 }

@@ -43,13 +43,13 @@
 
       # Status bar
       set-option -g status-style fg=white,bg=default
-      set -g status-left "#[fg=#d8647e bold]#S"
+      set -g status-left "#[fg=#8b6666 bold]#S"
       set-option -g status-right ""
       set-option -g status-keys vi
       set-option -g status-position top
       set-option -g status-justify centre
       set -g window-status-format "[#I] #W "
-      set -g window-status-current-format "#[fg=#d8647e bold][#I] #W "
+      set -g window-status-current-format "#[fg=#8b6666 bold][#I] #W "
 
       set -g set-clipboard on
     '';

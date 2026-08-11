@@ -5,8 +5,9 @@
     fd
     t3code
     protonmail-desktop
+    sioyek
     jdk8
-    jdk21
+    qbittorrent
     (nerd-fonts.jetbrains-mono)
   ];
 }

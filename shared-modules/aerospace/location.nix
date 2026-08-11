@@ -30,6 +30,10 @@
         "if".app-id = "net.kovidgoyal.calibre";
         run = [ "move-node-to-workspace 8" ];
       }
+      {
+        "if".app-id = "info.sioyek.sioyek";
+        run = [ "move-node-to-workspace 9" ];
+      }
 
       {
         "if".app-id = "ch.protonmail.desktop";
@@ -38,6 +42,10 @@
       {
         "if".app-id = "com.ableton.live";
         run = [ "move-node-to-workspace d" ];
+      }
+      {
+        "if".app-id = "org.qbittorrent.qBittorrent";
+        run = [ "move-node-to-workspace t" ];
       }
     ];
   };

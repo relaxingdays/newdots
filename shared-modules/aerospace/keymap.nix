@@ -26,6 +26,7 @@
     #Extra workspaces
     alt-m = "workspace m";
     alt-d = "workspace d";
+    alt-t = "workspace t";
 
     alt-shift-1 = [ "move-node-to-workspace 1" "workspace 1" ];
     alt-shift-2 = [ "move-node-to-workspace 2" "workspace 2" ];
@@ -39,5 +40,6 @@
 
     alt-shift-m = [ "move-node-to-workspace m" "workspace m" ];
     alt-shift-d = [ "move-node-to-workspace d" "workspace d" ];
+    alt-shift-t = [ "move-node-to-workspace t" "workspace t" ];
   };
 }

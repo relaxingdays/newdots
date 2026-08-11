@@ -29,7 +29,7 @@
         key = "<leader>a";
         action.__raw = ''
           function()
-            local list = harpoon:list()
+            local list = require'harpoon':list()
             list:add()
           end
         '';
@@ -40,8 +40,8 @@
         key = "<leader>h";
         action.__raw = ''
           function()
-            local list = harpoon:list()
-            harpoon.ui:toggle_quick_menu(list)
+            local list = require'harpoon':list()
+            require'harpoon'.ui:toggle_quick_menu(list)
           end
         '';
         options.desc = "Toggle harpoon menu";
@@ -51,7 +51,7 @@
         key = "<leader>1";
         action.__raw = ''
           function()
-            local list = harpoon:list()
+            local list = require'harpoon':list()
             list:select(1)
           end
         '';
@@ -62,7 +62,7 @@
         key = "<leader>2";
         action.__raw = ''
           function()
-            local list = harpoon:list()
+            local list = require'harpoon':list()
             list:select(2)
           end
         '';
@@ -73,7 +73,7 @@
         key = "<leader>3";
         action.__raw = ''
           function()
-            local list = harpoon:list()
+            local list = require'harpoon':list()
             list:select(3)
           end
         '';
@@ -84,7 +84,7 @@
         key = "<leader>4";
         action.__raw = ''
           function()
-            local list = harpoon:list()
+            local list = require'harpoon':list()
             list:select(4)
           end
         '';

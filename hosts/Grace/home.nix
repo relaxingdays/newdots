@@ -17,10 +17,9 @@
     ../../shared-modules/git
     ../../shared-modules/tmux
     ../../shared-modules/emacs
-    #../../shared-modules/nix-ai
+    ../../shared-modules/nixcord
     #./modules/mullvad.nix
     ./modules/homepackages.nix
     ./modules/fastfetch.nix
-    ../../shared-modules/nixcord
 	];
 }

@@ -10,6 +10,9 @@
       "{446900e4-71c2-419f-a6a7-df9c091e268b}" = "bitwarden-password-manager";
       "uBlock0@raymondhill.net" = "ublock-origin";
       "search@kagi.com" = "kagi-search-for-firefox";
+      "{21f1ba12-47e1-4a9b-ad4e-3a0260bbeb26}" = "remove-youtube-s-suggestions";
+
+
     };
   };
 }

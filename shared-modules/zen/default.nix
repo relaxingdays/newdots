@@ -5,6 +5,7 @@
     setAsDefaultBrowser = true;
     profiles.default.id = 0;
     profiles.work.id = 1;
+    profiles.school.id = 2;
   };
   imports = [
     inputs.zen-browser.homeModules.beta

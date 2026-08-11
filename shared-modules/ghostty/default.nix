@@ -7,7 +7,7 @@
     enableFishIntegration = true;
 
     settings = {
-      theme = "Gruvbox dark";
+      theme = "compline";
       macos-titlebar-style = "hidden";
       font-family = "JetBrainsMono NFM Regular";
       font-size = 18;
@@ -18,7 +18,7 @@
     };
   };
 
-  home.file."~/.config/ghostty/themes" = {
+  xdg.configFile."ghostty/themes" = {
     source = ./themes;
     recursive = true;
   };
